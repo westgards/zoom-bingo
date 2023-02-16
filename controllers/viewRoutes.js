@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
   const bootcampData = await Bootcamp.findAll().catch((err) => { 
     res.json(err);
   });
-  // We use map() to iterate over dishData and then add .get({ plain: true }) each object to serialize it. 
+  // We use map() to iterate over bingoData and then add .get({ plain: true }) each object to serialize it. 
   const bingoData = bootcampData.map((bing) => bing.get({ plain: true }));
   console.log(bingoData[0]);
   res.render('bootcamp', { bingoData });

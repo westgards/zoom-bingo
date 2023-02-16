@@ -13,6 +13,9 @@ This is a fullstack web application that allows you to play a Zoom themed bingo 
 
 This app uses Node.js MySQL so you will need to install all of these.
 
+**Technologies Used**
+- [Confetti.js](https://confettijs.org/)
+
 ## Usage
 
 **Project setup**
