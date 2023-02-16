@@ -40,13 +40,16 @@ This app uses Node.js MySQL so you will need to install all of these.
   - exit mysql
 - in Terminal:
   - seed database `node seeds/seed.js`
-  - start app server `npm start`
+  - start app server `npm start` to run locally
 
 \*_Use the command to run the app_
-`node server.js`
-
+`npm start` then navigate to localhost:3001
 
 ![Demo_bingo](./assets/images/demo_bingo.png)
+
+**This app is deployed withh Heroku, please click the link below to check it out!
+
+Deployed App in Heroku(https://mighty-refuge-69635.herokuapp.com/)
 
 ## Credits
 
