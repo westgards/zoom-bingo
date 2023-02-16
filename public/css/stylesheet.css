@@ -1,0 +1,44 @@
+body {
+    background-color: 388087;
+}
+
+div {
+    display: gray;
+    margin: 5px auto;
+    color: blue;
+}
+/* Zoom bingo header */
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: large;
+}
+
+.card {
+    box-shadow: 4px 8px;
+}
+
+.container {
+    padding: 2px 15px;
+}
+
+button {
+    border: none;
+    border-radius: 1px;
+    font-size: 25px;
+}
+
+.word {
+    background-color: lightblue;
+    color: rgb(129, 76, 76);
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+}
+
+.word:hover {
+    background-color: #fff;
+    color: beige;
+    transition-delay: 0.25s;
+
+}
