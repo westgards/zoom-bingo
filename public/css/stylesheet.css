@@ -42,3 +42,9 @@ button {
     transition-delay: 0.25s;
 
 }
+
+/* styles for game functionality*/
+
+.clicked {
+    opacity: 0.5;
+  }

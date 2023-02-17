@@ -1,11 +1,2 @@
 DROP DATABASE IF EXISTS bingo_db;
 CREATE DATABASE bingo_db;
-
-USE bingo_db;
-
-CREATE TABLE bootcamp (
-  id INT PRIMARY KEY AUTO_INCREMENT NOT NULL ,
-  description TEXT NOT NULL
-);
-
-SELECT * FROM bootcamp;

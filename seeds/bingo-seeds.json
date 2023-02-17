@@ -13,6 +13,10 @@
     {"event": "Carlee cat sighting"},
     {"event": "More than 10 people have their cameras off"},
     {"event": "Unstable internet"},
-    {"event": "*Fiddles around trying to leave meeting*"}
+    {"event": "*Fiddles around trying to leave meeting*"},
+    { "event": "Kadaija uses a zoom filter" },
+    {
+      "event": "Eli tells Johnny to make a breakout room (even when he's not there)"
+    }
     ]
     

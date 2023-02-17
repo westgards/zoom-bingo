@@ -1,91 +1,57 @@
+<div class='card'>
 
+  <div class='container'>
+    <table>
+      <tr class='headers'>
+        <th>B</th>
+        <th>I</th>
+        <th>N</th>
+        <th>G</th>
+        <th>O</th>
+      </tr>
+      <tr>
+        {{#each bingoData1 as |datum|}}
 
-<!DOCTYPE html>
-<html lang="en">
+          <button>
+            <td class='word'>{{datum.event}}</td>
+          </button>
+        {{/each}}
+      </tr>
 
-{{!-- <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/stylesheet.css">
-  <link rel="stylesheet" href="/css/jass.css"> --}}
-  <title>BINGO!</title>
-</head>
+      <tr>
+        {{#each bingoData2 as |datum|}}
 
+          <button>
+            <td class='word'>{{datum.event}}</td>
+          </button>
+        {{/each}}
+      </tr>
 
-  <!-- For each dish in the array of dish objects, the following <div> will be rendered. -->
-  {{!-- {{#each bingoData as |datum|}}
-    <div>
-    
-      <p>
-          {{datum.event}}
-      </p>
+      <tr>
+        {{#each bingoData3 as |datum|}}
+
+          <button>
+            <td class='word'>{{datum.event}}</td>
+          </button>
+        {{/each}}
+      </tr>
+
+      <tr>
+        {{#each bingoData4 as |datum|}}
+          <button>
+            <td class='word'>{{datum.event}}</td>
+          </button>
+        {{/each}}
+      </tr>
+
+      <tr>
+        {{#each bingoData5 as |datum|}}
+
+          <button>
+            <td class='word'>{{datum.event}}</td>
+          </button>
+        {{/each}}
+      </tr>
+    </table>
     </div>
-  {{/each}}
-</div> --}}
-
-<body>
-  <h1>ZOOM BINGO</h1>
-  <div class="card">
-    <div class="container">
-      <table>
-        <tr class="headers">
-          <th>B</th>
-          <th>I</th>
-          <th>N</th>
-          <th>G</th>
-          <th>O</th>
-        </tr>
-        {{#each bingoData as |datum|}}
-        <tr>
-          <button>
-            <td class="word">{{datum.event}}</td>
-          </button>
-          {{/each}}
-
-          {{!-- <button>
-            <td class="word">"Mark and Marc duo"></td>
-          </button>
-          <button>
-            <td class="word">"“Eli you are on mute”"</td>
-          </button>
-          <button>
-            <td class="word">"Lets get cracking"</td>
-          </button>
-          <button>
-            <td class="word">"“So who wants to share their screen” *cue silence*"</td>
-          </button> --}}
-        </tr>
-        {{!-- <tr>
-          <td id="" class="word">{{datum.event}}</td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-        </tr> --}}
-        {{!-- <tr>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-        </tr>
-        <tr>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-        </tr>
-        <tr>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-          <td id="" class="word"></td>
-        </tr> --}}
-      </table>
-    </div>
-  </div>
-</body>
-{{!-- <script=".. /./" </html> --}}
+</div>
