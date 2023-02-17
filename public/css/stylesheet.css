@@ -1,32 +1,37 @@
 body {
     background-color: 388087;
 }
-
 div {
     display: gray;
     margin: 5px auto;
     color: blue;
 }
-/* Zoom bingo header */
-h1 {
-    text-align: center;
+
+header h1 {
     font-style: bold;
-    font-size: large;
+    font-size: 75px;
+    text-decoration: underline;
+}
+
+th {
+
+    font-size: 50px;
 }
 
 .card {
     box-shadow: 4px 8px;
+    border-radius: 10px;
 }
 
 .container {
     padding: 2px 15px;
 }
 
-button {
+/* button {
     border: none;
     border-radius: 1px;
     font-size: 25px;
-}
+} */
 
 .word {
     background-color: lightblue;
@@ -34,13 +39,13 @@ button {
     width: 75px;
     height: 75px;
     font-size: 30px;
+    border-radius: 5px;
 }
 
 .word:hover {
     background-color: #fff;
     color: beige;
     transition-delay: 0.25s;
-
 }
 
 /* styles for game functionality*/
