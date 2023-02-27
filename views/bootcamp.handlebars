@@ -1,56 +1,50 @@
 <div class='card'>
 
   <div class='container'>
-    <table>
-      <tr class='headers'>
-        <th>B</th>
-        <th>I</th>
-        <th>N</th>
-        <th>G</th>
-        <th>O</th>
-      </tr>
-      <tr>
+
+    {{!-- <div class='headers'>
+        <h2>B</h2>
+        <h2>I</h2>
+        <h2>N</h2>
+        <h2>G</h2>
+        <h2>O</h2>
+      </div> --}}
+
+      <div class="row-1">
+        <h2 class="column-headers">B</h2>
         {{#each bingoData1 as |datum|}}
-
-            <td class='word'>{{datum.event}}</td>
-          
+            <p class='word'>{{datum.event}}</p>
         {{/each}}
-      </tr>
+      </div>
 
-      <tr>
+      <div class="row-2">
+         <h2 class="column-headers">I</h2>
         {{#each bingoData2 as |datum|}}
-
-
-            <td class='word'>{{datum.event}}</td>
-
+            <p class='word'>{{datum.event}}</p>
         {{/each}}
-      </tr>
+      </div>
 
-      <tr>
+      <div class="row-3">
+        <h2 class="column-headers">N</h2>
         {{#each bingoData3 as |datum|}}
-
-          
-            <td class='word'>{{datum.event}}</td>
-          
+            <p class='word'>{{datum.event}}</p>
         {{/each}}
-      </tr>
+      </div>
 
-      <tr>
+      <div class="row-4">
+        <h2 class="column-headers">G</h2>
         {{#each bingoData4 as |datum|}}
-          
-            <td class='word'>{{datum.event}}</td>
-          
+            <p class='word'>{{datum.event}}</p>
         {{/each}}
-      </tr>
+      </div>
 
-      <tr>
+      <div class="row-5">
+        <h2 class="column-headers">O</h2>
         {{#each bingoData5 as |datum|}}
-
-          
-            <td class='word'>{{datum.event}}</td>
-          
+            <p class='word'>{{datum.event}}</p>
         {{/each}}
-      </tr>
-    </table>
-    </div>
+      </div>
+
+  </div>
+
 </div>
